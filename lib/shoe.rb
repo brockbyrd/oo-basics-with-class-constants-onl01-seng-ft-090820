@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    array.uniq.size <= 1
+    @brand.uniq.size <= 1
   end
 
   def cobble
